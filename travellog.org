@@ -117,21 +117,24 @@ travellog.each_cons(2) do |entry, cons_entry|
 
   date = Date.parse org_date
 
+  properties = { Location: location }
+  properties[:Remarks] = remarks unless remarks.empty?
+  properties['Arrival date'] = date
+
   features << {
     type: 'Feature',
     geometry: {
       type: 'Point',
       coordinates: geo[location]
     },
-    properties: {
-      Location: location,
-      Date: date,
-    }.merge(remarks.empty? ? {} : { Remarks: remarks })
+    properties: properties
   }
 
   if cons_entry
     cons_org_date, cons_location = cons_entry
     cons_date = Date.parse cons_org_date
+
+    features.last[:properties]['Departure date'] = cons_date
 
     features << {
       type: 'Feature',
