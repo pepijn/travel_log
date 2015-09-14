@@ -1,8 +1,8 @@
 Find the GeoJSON file.
 
 #+NAME: geojson-file
-#+BEGIN_SRC sh :results silent
-ls . | grep .geojson
+#+BEGIN_SRC sh
+ls . | grep .geojson | head -n 1
 #+END_SRC
 
 Load the travel log from the GeoJSON file, so we can edit it.
