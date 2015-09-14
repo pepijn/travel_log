@@ -1,5 +1,5 @@
 # travel_log
-Organize my GeoJSON travel log with org-mode
+Organize my travel log. Edit with `org-mode`, store in Git and render via [GitHub geoJSON](https://help.github.com/articles/mapping-geojson-files-on-github/).
 
 ![travel_log demonstration](https://github.com/pepijn/travel_log/blob/master/media/demo.gif)
 
