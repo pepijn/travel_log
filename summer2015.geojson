@@ -30,6 +30,12 @@
             48.2106139
           ]
         ]
+      },
+      "properties": {
+        "Origin": "Nieuwe Prinsengracht, Amsterdam",
+        "Destination": "Mammendorf",
+        "Departure date": "2015-06-27",
+        "Arrival date": "2015-06-27"
       }
     },
     {
@@ -61,6 +67,12 @@
             47.1440566
           ]
         ]
+      },
+      "properties": {
+        "Origin": "Mammendorf",
+        "Destination": "Camping Bertahof, Bad Hofgastein",
+        "Departure date": "2015-06-27",
+        "Arrival date": "2015-06-28"
       }
     },
     {
@@ -91,6 +103,12 @@
             47.1725556
           ]
         ]
+      },
+      "properties": {
+        "Origin": "Camping Bertahof, Bad Hofgastein",
+        "Destination": "Bad Hofgastein",
+        "Departure date": "2015-06-28",
+        "Arrival date": "2015-06-29"
       }
     },
     {
@@ -122,6 +140,12 @@
             45.48430099999999
           ]
         ]
+      },
+      "properties": {
+        "Origin": "Bad Hofgastein",
+        "Destination": "Camping Rialto, Venice",
+        "Departure date": "2015-06-29",
+        "Arrival date": "2015-06-29"
       }
     },
     {
@@ -152,6 +176,12 @@
             45.4408474
           ]
         ]
+      },
+      "properties": {
+        "Origin": "Camping Rialto, Venice",
+        "Destination": "Venice",
+        "Departure date": "2015-06-29",
+        "Arrival date": "2015-06-30"
       }
     },
     {
@@ -182,6 +212,12 @@
             44.96644000000001
           ]
         ]
+      },
+      "properties": {
+        "Origin": "Venice",
+        "Destination": "Camping Škrila, Punat",
+        "Departure date": "2015-06-30",
+        "Arrival date": "2015-07-01"
       }
     },
     {
@@ -212,6 +248,12 @@
             43.3422732
           ]
         ]
+      },
+      "properties": {
+        "Origin": "Camping Škrila, Punat",
+        "Destination": "Hostel David, Mostar",
+        "Departure date": "2015-07-01",
+        "Arrival date": "2015-07-03"
       }
     },
     {
@@ -242,6 +284,12 @@
             43.1501052
           ]
         ]
+      },
+      "properties": {
+        "Origin": "Hostel David, Mostar",
+        "Destination": "43.1561568,17.6085656",
+        "Departure date": "2015-07-03",
+        "Arrival date": "2015-07-04"
       }
     },
     {
@@ -273,6 +321,12 @@
             42.6690164
           ]
         ]
+      },
+      "properties": {
+        "Origin": "43.1561568,17.6085656",
+        "Destination": "Hostel Dubrovnik, Komolac, Croatia",
+        "Departure date": "2015-07-04",
+        "Arrival date": "2015-07-04"
       }
     },
     {
@@ -303,6 +357,12 @@
             42.65066059999999
           ]
         ]
+      },
+      "properties": {
+        "Origin": "Hostel Dubrovnik, Komolac, Croatia",
+        "Destination": "Dubrovnik",
+        "Departure date": "2015-07-04",
+        "Arrival date": "2015-07-04"
       }
     },
     {
@@ -334,6 +394,12 @@
             42.6690164
           ]
         ]
+      },
+      "properties": {
+        "Origin": "Dubrovnik",
+        "Destination": "Hostel Dubrovnik, Komolac, Croatia",
+        "Departure date": "2015-07-04",
+        "Arrival date": "2015-07-05"
       }
     },
     {
@@ -364,6 +430,12 @@
             42.65066059999999
           ]
         ]
+      },
+      "properties": {
+        "Origin": "Hostel Dubrovnik, Komolac, Croatia",
+        "Destination": "Dubrovnik",
+        "Departure date": "2015-07-05",
+        "Arrival date": "2015-07-05"
       }
     },
     {
@@ -395,6 +467,12 @@
             42.4392434
           ]
         ]
+      },
+      "properties": {
+        "Origin": "Dubrovnik",
+        "Destination": "Hostel 4U, Kotor, Montenegro",
+        "Departure date": "2015-07-05",
+        "Arrival date": "2015-07-05"
       }
     },
     {
@@ -425,6 +503,12 @@
             41.3275459
           ]
         ]
+      },
+      "properties": {
+        "Origin": "Hostel 4U, Kotor, Montenegro",
+        "Destination": "Tirana, Albania",
+        "Departure date": "2015-07-05",
+        "Arrival date": "2015-07-07"
       }
     },
     {
@@ -455,6 +539,12 @@
             42.6629138
           ]
         ]
+      },
+      "properties": {
+        "Origin": "Tirana, Albania",
+        "Destination": "Prishtina, Kosovo",
+        "Departure date": "2015-07-07",
+        "Arrival date": "2015-07-09"
       }
     },
     {
@@ -485,6 +575,12 @@
             42.5277728
           ]
         ]
+      },
+      "properties": {
+        "Origin": "Prishtina, Kosovo",
+        "Destination": "Mirusha Waterfalls, Kosovo",
+        "Departure date": "2015-07-09",
+        "Arrival date": "2015-07-10"
       }
     },
     {
@@ -515,6 +611,12 @@
             42.6629138
           ]
         ]
+      },
+      "properties": {
+        "Origin": "Mirusha Waterfalls, Kosovo",
+        "Destination": "Prishtina, Kosovo",
+        "Departure date": "2015-07-10",
+        "Arrival date": "2015-07-10"
       }
     },
     {
@@ -545,6 +647,12 @@
             42.1322895
           ]
         ]
+      },
+      "properties": {
+        "Origin": "Prishtina, Kosovo",
+        "Destination": "Kumanovo, Macedonia",
+        "Departure date": "2015-07-10",
+        "Arrival date": "2015-07-11"
       }
     },
     {
@@ -576,6 +684,12 @@
             47.497912
           ]
         ]
+      },
+      "properties": {
+        "Origin": "Kumanovo, Macedonia",
+        "Destination": "Budapest",
+        "Departure date": "2015-07-11",
+        "Arrival date": "2015-07-11"
       }
     },
     {
@@ -606,6 +720,12 @@
             50.0889293
           ]
         ]
+      },
+      "properties": {
+        "Origin": "Budapest",
+        "Destination": "Hostel Marabou, Koněvova 738/55, Prague",
+        "Departure date": "2015-07-11",
+        "Arrival date": "2015-07-14"
       }
     },
     {
@@ -636,6 +756,12 @@
             50.0878334
           ]
         ]
+      },
+      "properties": {
+        "Origin": "Hostel Marabou, Koněvova 738/55, Prague",
+        "Destination": "Prague 1",
+        "Departure date": "2015-07-14",
+        "Arrival date": "2015-07-14"
       }
     },
     {
@@ -666,6 +792,12 @@
             50.0889293
           ]
         ]
+      },
+      "properties": {
+        "Origin": "Prague 1",
+        "Destination": "Hostel Marabou, Koněvova 738/55, Prague",
+        "Departure date": "2015-07-14",
+        "Arrival date": "2015-07-14"
       }
     },
     {
@@ -696,6 +828,12 @@
             51.3396955
           ]
         ]
+      },
+      "properties": {
+        "Origin": "Hostel Marabou, Koněvova 738/55, Prague",
+        "Destination": "Leipzig",
+        "Departure date": "2015-07-14",
+        "Arrival date": "2015-07-15"
       }
     },
     {
@@ -726,6 +864,12 @@
             51.7582836
           ]
         ]
+      },
+      "properties": {
+        "Origin": "Leipzig",
+        "Destination": "Ferropolis",
+        "Departure date": "2015-07-15",
+        "Arrival date": "2015-07-16"
       }
     },
     {
@@ -757,6 +901,12 @@
             52.36366109999999
           ]
         ]
+      },
+      "properties": {
+        "Origin": "Ferropolis",
+        "Destination": "Nieuwe Prinsengracht, Amsterdam",
+        "Departure date": "2015-07-16",
+        "Arrival date": "2015-07-19"
       }
     },
     {
@@ -788,6 +938,12 @@
             52.35534269999999
           ]
         ]
+      },
+      "properties": {
+        "Origin": "Nieuwe Prinsengracht, Amsterdam",
+        "Destination": "Science Park, Amsterdam",
+        "Departure date": "2015-07-19",
+        "Arrival date": "2015-07-28"
       }
     },
     {
@@ -819,6 +975,12 @@
             52.36366109999999
           ]
         ]
+      },
+      "properties": {
+        "Origin": "Science Park, Amsterdam",
+        "Destination": "Nieuwe Prinsengracht, Amsterdam",
+        "Departure date": "2015-07-28",
+        "Arrival date": "2015-07-28"
       }
     },
     {
@@ -849,6 +1011,12 @@
             52.35534269999999
           ]
         ]
+      },
+      "properties": {
+        "Origin": "Nieuwe Prinsengracht, Amsterdam",
+        "Destination": "Science Park, Amsterdam",
+        "Departure date": "2015-07-28",
+        "Arrival date": "2015-07-29"
       }
     },
     {
@@ -880,6 +1048,12 @@
             52.3061265
           ]
         ]
+      },
+      "properties": {
+        "Origin": "Science Park, Amsterdam",
+        "Destination": "Nieuwe Meerlaan 1",
+        "Departure date": "2015-07-29",
+        "Arrival date": "2015-07-30"
       }
     },
     {
@@ -911,6 +1085,12 @@
             52.36366109999999
           ]
         ]
+      },
+      "properties": {
+        "Origin": "Nieuwe Meerlaan 1",
+        "Destination": "Nieuwe Prinsengracht, Amsterdam",
+        "Departure date": "2015-07-30",
+        "Arrival date": "2015-08-03"
       }
     },
     {
@@ -941,6 +1121,12 @@
             50.0878334
           ]
         ]
+      },
+      "properties": {
+        "Origin": "Nieuwe Prinsengracht, Amsterdam",
+        "Destination": "Prague 1",
+        "Departure date": "2015-08-03",
+        "Arrival date": "2015-08-10"
       }
     },
     {
@@ -972,6 +1158,12 @@
             50.0862754
           ]
         ]
+      },
+      "properties": {
+        "Origin": "Prague 1",
+        "Destination": "Kožná, Prague",
+        "Departure date": "2015-08-10",
+        "Arrival date": "2015-08-11"
       }
     },
     {
@@ -1003,6 +1195,12 @@
             50.0894377
           ]
         ]
+      },
+      "properties": {
+        "Origin": "Kožná, Prague",
+        "Destination": "Old Town, Prague",
+        "Departure date": "2015-08-11",
+        "Arrival date": "2015-08-11"
       }
     },
     {
@@ -1033,6 +1231,12 @@
             50.0862754
           ]
         ]
+      },
+      "properties": {
+        "Origin": "Old Town, Prague",
+        "Destination": "Kožná, Prague",
+        "Departure date": "2015-08-11",
+        "Arrival date": "2015-08-12"
       }
     },
     {
@@ -1064,6 +1268,12 @@
             52.52000659999999
           ]
         ]
+      },
+      "properties": {
+        "Origin": "Kožná, Prague",
+        "Destination": "Berlin",
+        "Departure date": "2015-08-12",
+        "Arrival date": "2015-08-12"
       }
     },
     {
@@ -1095,6 +1305,12 @@
             53.5510846
           ]
         ]
+      },
+      "properties": {
+        "Origin": "Berlin",
+        "Destination": "Hamburg",
+        "Departure date": "2015-08-12",
+        "Arrival date": "2015-08-13"
       }
     },
     {
@@ -1125,6 +1341,12 @@
             52.09073739999999
           ]
         ]
+      },
+      "properties": {
+        "Origin": "Hamburg",
+        "Destination": "Utrecht",
+        "Departure date": "2015-08-13",
+        "Arrival date": "2015-08-14"
       }
     },
     {
@@ -1155,6 +1377,12 @@
             52.36366109999999
           ]
         ]
+      },
+      "properties": {
+        "Origin": "Utrecht",
+        "Destination": "Nieuwe Prinsengracht, Amsterdam",
+        "Departure date": "2015-08-14",
+        "Arrival date": "2015-08-17"
       }
     },
     {
@@ -1185,6 +1413,12 @@
             53.22230440000001
           ]
         ]
+      },
+      "properties": {
+        "Origin": "Nieuwe Prinsengracht, Amsterdam",
+        "Destination": "UMCG Groningen",
+        "Departure date": "2015-08-17",
+        "Arrival date": "2015-08-20"
       }
     },
     {
@@ -1216,6 +1450,12 @@
             52.36366109999999
           ]
         ]
+      },
+      "properties": {
+        "Origin": "UMCG Groningen",
+        "Destination": "Nieuwe Prinsengracht, Amsterdam",
+        "Departure date": "2015-08-20",
+        "Arrival date": "2015-08-20"
       }
     },
     {
@@ -1246,6 +1486,12 @@
             52.45523559999999
           ]
         ]
+      },
+      "properties": {
+        "Origin": "Nieuwe Prinsengracht, Amsterdam",
+        "Destination": "Biddinghuizen",
+        "Departure date": "2015-08-20",
+        "Arrival date": "2015-08-21"
       }
     },
     {
@@ -1277,6 +1523,12 @@
             52.36366109999999
           ]
         ]
+      },
+      "properties": {
+        "Origin": "Biddinghuizen",
+        "Destination": "Nieuwe Prinsengracht, Amsterdam",
+        "Departure date": "2015-08-21",
+        "Arrival date": "2015-08-23"
       }
     },
     {
@@ -1307,6 +1559,12 @@
             52.400942
           ]
         ]
+      },
+      "properties": {
+        "Origin": "Nieuwe Prinsengracht, Amsterdam",
+        "Destination": "NDSM terrein, Amsterdam",
+        "Departure date": "2015-08-23",
+        "Arrival date": "2015-08-29"
       }
     },
     {
@@ -1338,6 +1596,12 @@
             52.36366109999999
           ]
         ]
+      },
+      "properties": {
+        "Origin": "NDSM terrein, Amsterdam",
+        "Destination": "Nieuwe Prinsengracht, Amsterdam",
+        "Departure date": "2015-08-29",
+        "Arrival date": "2015-08-29"
       }
     },
     {
