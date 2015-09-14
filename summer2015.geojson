@@ -160,7 +160,7 @@
       "properties": {
         "Location": "Camping Rialto, Venice",
         "Arrival date": "2015-06-29",
-        "Departure date": "2015-06-30"
+        "Departure date": "2015-07-01"
       }
     },
     {
@@ -173,49 +173,13 @@
             45.48430099999999
           ],
           [
-            12.3155151,
-            45.4408474
-          ]
-        ]
-      },
-      "properties": {
-        "Origin": "Camping Rialto, Venice",
-        "Destination": "Venice",
-        "Arrival date": "2015-06-30"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          12.3155151,
-          45.4408474
-        ]
-      },
-      "properties": {
-        "Location": "Venice",
-        "Arrival date": "2015-06-30",
-        "Departure date": "2015-07-01"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            12.3155151,
-            45.4408474
-          ],
-          [
             14.674125,
             44.96644000000001
           ]
         ]
       },
       "properties": {
-        "Origin": "Venice",
+        "Origin": "Camping Rialto, Venice",
         "Destination": "Camping Škrila, Punat",
         "Arrival date": "2015-07-01"
       }
@@ -339,7 +303,7 @@
       },
       "properties": {
         "Location": "43.1561568,17.6085656",
-        "Remarks": "Waterfalls",
+        "Remarks": "Kravice Waterfall",
         "Arrival date": "2015-07-04",
         "Departure date": "2015-07-04"
       }
@@ -377,79 +341,6 @@
       "properties": {
         "Location": "Hostel Dubrovnik, Komolac, Croatia",
         "Arrival date": "2015-07-04",
-        "Departure date": "2015-07-04"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            18.1334173,
-            42.6690164
-          ],
-          [
-            18.0944238,
-            42.65066059999999
-          ]
-        ]
-      },
-      "properties": {
-        "Origin": "Hostel Dubrovnik, Komolac, Croatia",
-        "Destination": "Dubrovnik",
-        "Arrival date": "2015-07-04"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          18.0944238,
-          42.65066059999999
-        ]
-      },
-      "properties": {
-        "Location": "Dubrovnik",
-        "Remarks": "Nightlife",
-        "Arrival date": "2015-07-04",
-        "Departure date": "2015-07-05"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            18.0944238,
-            42.65066059999999
-          ],
-          [
-            18.1334173,
-            42.6690164
-          ]
-        ]
-      },
-      "properties": {
-        "Origin": "Dubrovnik",
-        "Destination": "Hostel Dubrovnik, Komolac, Croatia",
-        "Arrival date": "2015-07-05"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          18.1334173,
-          42.6690164
-        ]
-      },
-      "properties": {
-        "Location": "Hostel Dubrovnik, Komolac, Croatia",
-        "Arrival date": "2015-07-05",
         "Departure date": "2015-07-05"
       }
     },
@@ -812,78 +703,6 @@
       "properties": {
         "Location": "Hostel Marabou, Koněvova 738/55, Prague",
         "Arrival date": "2015-07-14",
-        "Departure date": "2015-07-14"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            14.4605156,
-            50.0889293
-          ],
-          [
-            14.4210489,
-            50.0878334
-          ]
-        ]
-      },
-      "properties": {
-        "Origin": "Hostel Marabou, Koněvova 738/55, Prague",
-        "Destination": "Prague 1",
-        "Arrival date": "2015-07-14"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          14.4210489,
-          50.0878334
-        ]
-      },
-      "properties": {
-        "Location": "Prague 1",
-        "Arrival date": "2015-07-14",
-        "Departure date": "2015-07-14"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            14.4210489,
-            50.0878334
-          ],
-          [
-            14.4605156,
-            50.0889293
-          ]
-        ]
-      },
-      "properties": {
-        "Origin": "Prague 1",
-        "Destination": "Hostel Marabou, Koněvova 738/55, Prague",
-        "Arrival date": "2015-07-14"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          14.4605156,
-          50.0889293
-        ]
-      },
-      "properties": {
-        "Location": "Hostel Marabou, Koněvova 738/55, Prague",
-        "Arrival date": "2015-07-14",
         "Departure date": "2015-07-15"
       }
     },
@@ -920,42 +739,6 @@
       "properties": {
         "Location": "Hostel & Garten Eden, Leipzig",
         "Arrival date": "2015-07-15",
-        "Departure date": "2015-07-15"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            12.3730747,
-            51.3396955
-          ],
-          [
-            12.3730747,
-            51.3396955
-          ]
-        ]
-      },
-      "properties": {
-        "Origin": "Hostel & Garten Eden, Leipzig",
-        "Destination": "Leipzig",
-        "Arrival date": "2015-07-15"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          12.3730747,
-          51.3396955
-        ]
-      },
-      "properties": {
-        "Location": "Leipzig",
-        "Arrival date": "2015-07-15",
         "Departure date": "2015-07-16"
       }
     },
@@ -975,7 +758,7 @@
         ]
       },
       "properties": {
-        "Origin": "Leipzig",
+        "Origin": "Hostel & Garten Eden, Leipzig",
         "Destination": "Ferropolis",
         "Arrival date": "2015-07-16"
       }
@@ -1213,7 +996,7 @@
       "properties": {
         "Location": "Nieuwe Prinsengracht, Amsterdam",
         "Arrival date": "2015-08-03",
-        "Departure date": "2015-08-10"
+        "Departure date": "2015-08-11"
       }
     },
     {
@@ -1226,50 +1009,13 @@
             52.36366109999999
           ],
           [
-            14.4210489,
-            50.0878334
+            14.4213456,
+            50.0862754
           ]
         ]
       },
       "properties": {
         "Origin": "Nieuwe Prinsengracht, Amsterdam",
-        "Destination": "Prague 1",
-        "Arrival date": "2015-08-10"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          14.4210489,
-          50.0878334
-        ]
-      },
-      "properties": {
-        "Location": "Prague 1",
-        "Remarks": "Nightlife",
-        "Arrival date": "2015-08-10",
-        "Departure date": "2015-08-11"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            14.4210489,
-            50.0878334
-          ],
-          [
-            14.4213456,
-            50.0862754
-          ]
-        ]
-      },
-      "properties": {
-        "Origin": "Prague 1",
         "Destination": "Kožná, Prague",
         "Arrival date": "2015-08-11"
       }
@@ -1287,79 +1033,6 @@
         "Location": "Kožná, Prague",
         "Remarks": "AirBnB",
         "Arrival date": "2015-08-11",
-        "Departure date": "2015-08-11"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            14.4213456,
-            50.0862754
-          ],
-          [
-            14.4194074,
-            50.0894377
-          ]
-        ]
-      },
-      "properties": {
-        "Origin": "Kožná, Prague",
-        "Destination": "Old Town, Prague",
-        "Arrival date": "2015-08-11"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          14.4194074,
-          50.0894377
-        ]
-      },
-      "properties": {
-        "Location": "Old Town, Prague",
-        "Arrival date": "2015-08-11",
-        "Departure date": "2015-08-12"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            14.4194074,
-            50.0894377
-          ],
-          [
-            14.4213456,
-            50.0862754
-          ]
-        ]
-      },
-      "properties": {
-        "Origin": "Old Town, Prague",
-        "Destination": "Kožná, Prague",
-        "Arrival date": "2015-08-12"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          14.4213456,
-          50.0862754
-        ]
-      },
-      "properties": {
-        "Location": "Kožná, Prague",
-        "Remarks": "AirBnB",
-        "Arrival date": "2015-08-12",
         "Departure date": "2015-08-12"
       }
     },
