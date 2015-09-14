@@ -1023,7 +1023,7 @@
       "properties": {
         "Location": "Nieuwe Prinsengracht, Amsterdam",
         "Arrival date": "2015-08-03",
-        "Departure date": "2015-08-11"
+        "Departure date": "2015-08-04"
       }
     },
     {
@@ -1036,15 +1036,53 @@
             52.36366109999999
           ],
           [
+            4.593325,
+            52.4916911
+          ]
+        ]
+      },
+      "properties": {
+        "Origin": "Nieuwe Prinsengracht, Amsterdam",
+        "Destination": "Wijk aan Zee",
+        "Departure date": "2015-08-03",
+        "Arrival date": "2015-08-04"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.593325,
+          52.4916911
+        ]
+      },
+      "properties": {
+        "Location": "Wijk aan Zee",
+        "Remarks": "Kiteboarding",
+        "Arrival date": "2015-08-04",
+        "Departure date": "2015-08-11"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            4.593325,
+            52.4916911
+          ],
+          [
             14.4213456,
             50.0862754
           ]
         ]
       },
       "properties": {
-        "Origin": "Nieuwe Prinsengracht, Amsterdam",
+        "Origin": "Wijk aan Zee",
         "Destination": "Kožná, Prague",
-        "Departure date": "2015-08-03",
+        "Departure date": "2015-08-04",
         "Arrival date": "2015-08-11"
       }
     },
