@@ -937,6 +937,37 @@
             52.36366109999999
           ],
           [
+            14.4210489,
+            50.0878334
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.4210489,
+          50.0878334
+        ]
+      },
+      "properties": {
+        "Location": "Prague 1",
+        "Date": "2015-08-10",
+        "Remarks": "Nightlife"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            14.4210489,
+            50.0878334
+          ],
+          [
             14.4213456,
             50.0862754
           ]
@@ -954,7 +985,69 @@
       },
       "properties": {
         "Location": "Kožná, Prague",
-        "Date": "2015-08-10"
+        "Date": "2015-08-11",
+        "Remarks": "AirBnB"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            14.4213456,
+            50.0862754
+          ],
+          [
+            14.4194074,
+            50.0894377
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.4194074,
+          50.0894377
+        ]
+      },
+      "properties": {
+        "Location": "Old Town, Prague",
+        "Date": "2015-08-11"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            14.4194074,
+            50.0894377
+          ],
+          [
+            14.4213456,
+            50.0862754
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.4213456,
+          50.0862754
+        ]
+      },
+      "properties": {
+        "Location": "Kožná, Prague",
+        "Date": "2015-08-12",
+        "Remarks": "AirBnB"
       }
     },
     {
