@@ -20,9 +20,12 @@ if travellog == 'nil'
   end
 
   destinations.map do |dest|
-    prp = dest['properties']
-    org_date, location, remarks = prp['Date'], prp['Location'], prp['Remarks']
-    date = Date.parse org_date
+    properties = dest['properties']
+
+    date = Date.parse properties['Arrival date']
+    location = properties['Location']
+    remarks = properties['Remarks']
+
     [date.strftime('<%Y-%m-%d %a>'), location, remarks || '']
   end
 else
