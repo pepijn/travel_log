@@ -556,13 +556,48 @@
             41.3275459
           ],
           [
+            20.7414739,
+            42.2152585
+          ]
+        ]
+      },
+      "properties": {
+        "Origin": "Tirana, Albania",
+        "Destination": "Prizren, Kosovo",
+        "Arrival date": "2015-07-09"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.7414739,
+          42.2152585
+        ]
+      },
+      "properties": {
+        "Location": "Prizren, Kosovo",
+        "Date": "2015-07-09"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            20.7414739,
+            42.2152585
+          ],
+          [
             21.1655028,
             42.6629138
           ]
         ]
       },
       "properties": {
-        "Origin": "Tirana, Albania",
+        "Origin": "Prizren, Kosovo",
         "Destination": "Prishtina, Kosovo",
         "Arrival date": "2015-07-09"
       }
