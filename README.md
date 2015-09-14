@@ -13,4 +13,4 @@ Into this:
 
 ## Usage
 
-Check out the repository, open `travellog.geojson` and run `C-c C-v C-b` to run all the blocks.
+Check out the repository, open `travellog.org` and run `C-c C-v C-b` to run all the blocks.
