@@ -904,6 +904,42 @@
       },
       "properties": {
         "Origin": "Hostel Marabou, Koněvova 738/55, Prague",
+        "Destination": "Garden of Eden Hostel, Leipzig",
+        "Arrival date": "2015-07-15"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.3730747,
+          51.3396955
+        ]
+      },
+      "properties": {
+        "Location": "Garden of Eden Hostel, Leipzig",
+        "Arrival date": "2015-07-15",
+        "Departure date": "2015-07-15"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            12.3730747,
+            51.3396955
+          ],
+          [
+            12.3730747,
+            51.3396955
+          ]
+        ]
+      },
+      "properties": {
+        "Origin": "Garden of Eden Hostel, Leipzig",
         "Destination": "Leipzig",
         "Arrival date": "2015-07-15"
       }
