@@ -45,12 +45,12 @@ GeoJSON travel log when the cache is empty.
 Please check the table for error messages when a location is not found, or
 something else goes wrong.
 
-#+BEGIN_SRC ruby :var travellog=travellog cache=geo-cache geojson_file=geojson-file
+#+BEGIN_SRC ruby :var travellog=travellog cache_table=geo-cache geojson_file=geojson-file
 require 'json'
 require 'geocoder'
 
-if cache != 'nil'
-  cache = Hash[cache.map do |item|
+if cache_table != 'nil'
+  cache = Hash[cache_table.map do |item|
     location, lng, lat = item
     [location, [lng, lat]]
   end]
