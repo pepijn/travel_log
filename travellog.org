@@ -1,0 +1,157 @@
+Load the travel log from the GeoJSON file.
+
+#+BEGIN_SRC ruby :var log=log
+require 'json'
+require 'date'
+
+if log == 'nil'
+  raw = JSON.parse open('summer2015.geojson').read
+  destinations = raw['features'].select do |entry|
+    entry['geometry']['type'] == 'Point'
+  end
+
+  destinations.map do |dest|
+    prop = dest['properties']
+    org_date, location, remarks = prop['Date'], prop['Location'], prop['Remarks']
+    date = Date.parse org_date
+    [date.strftime('<%Y-%m-%d %a>'), location, remarks || '']
+  end
+else
+  log
+end
+#+END_SRC
+
+#+NAME: log
+#+RESULTS:
+
+Warm the cache from the GeoJSON file.
+
+#+BEGIN_SRC ruby :var log=log cache=geo-cache
+require 'json'
+require 'geocoder'
+
+if cache != 'nil'
+  cache = Hash[cache.map do |item|
+                 location, lng, lat = item
+                 [location, [lng, lat]]
+               end]
+else
+  raw = JSON.parse open('summer2015.geojson').read
+  destinations = raw['features'].select do |entry|
+    entry['geometry']['type'] == 'Point'
+  end
+
+  cache = Hash[destinations.map do |dest|
+                 location = dest['properties']['Location']
+                 coordinates = dest['geometry']['coordinates']
+                 [location, coordinates]
+               end]
+end
+
+
+# Remove invalid values from cache
+cache.select! do |_, coords|
+  begin
+    coords.each { |coord| Float(coord) }
+  rescue ArgumentError # invalid value for Float()
+  end
+end
+
+distinct_locations = log.map do |entry|
+  _, location = entry
+  location
+end
+
+distinct_locations.uniq!
+distinct_locations.sort!
+
+distinct_locations.map do |location|
+  unless lnglat = cache[location]
+    begin
+      geo = Geocoder.search location
+      loc = geo.first.geometry['location']
+      lnglat = [loc['lng'], loc['lat']]
+    rescue => e
+      lnglat = [e.inspect, ""]
+    end
+  end
+
+  [location, *lnglat]
+end.compact
+#+END_SRC
+
+#+NAME: geo-cache
+#+RESULTS:
+
+Turn the travellog table into GeoJSON.
+
+#+HEADER: :var log=log geo_cache=geo-cache
+#+HEADER: :results output
+#+HEADER: :file summer2015.geojson
+#+BEGIN_SRC ruby
+require 'date'
+require 'json'
+
+geo = Hash[geo_cache.map do |entry|
+             location, lng, lat = entry
+             [location, [lng, lat]]
+           end]
+
+features = []
+log << nil
+log.each_cons(2) do |entry, cons_entry|
+  org_date, location, remarks = entry
+
+  # Raise if coord is invalid
+  geo[location].each do |coord|
+    Float(coord)
+  end
+
+  date = Date.parse org_date
+
+  features << {
+    type: 'Feature',
+    geometry: {
+      type: 'Point',
+      coordinates: geo[location]
+    },
+    properties: {
+      Location: location,
+      Date: date,
+    }.merge(remarks.empty? ? {} : { Remarks: remarks })
+  }
+
+  if cons_entry
+    cons_org_date, cons_location = cons_entry
+    cons_date = Date.parse cons_org_date
+
+    features << {
+      type: 'Feature',
+      geometry: {
+        type: 'LineString',
+        coordinates: [geo[location], geo[cons_location]]
+      },
+      properties: {
+        'Origin' => location,
+        'Destination' => cons_location,
+        'Arrival date' => cons_date
+      }
+    }
+  end
+end
+
+puts JSON.pretty_generate(
+  type: 'FeatureCollection',
+  features: features
+)
+#+END_SRC
+
+#+RESULTS:
+
+Push the GeoJSON file to GitHub.
+
+#+BEGIN_SRC sh :results silent
+git add summer2015.geojson
+git commit -m 'Update travellog'
+git push
+#+END_SRC
