@@ -1,10 +1,45 @@
+#+TITLE: travel_log
 #+STARTUP: showall hideblocks
 
-* Organizing your geoJSON travel log
+** Introduction
+   :PROPERTIES:
+   :VISIBILITY: folded
+   :END:
 
-  Load the travel log from the existing geoJSON file, so we can edit it.
+   Organize my travel log. Edit with `org-mode`, store in Git and render via
+   [GitHub
+   geoJSON](https://help.github.com/articles/mapping-geojson-files-on-github/).
 
-  #+BEGIN_SRC ruby :var travellog=travellog geojson_file=geojson-file
+   [[./media/demo.gif]]
+
+*** Description
+
+    Turns this: [[./media/emacs.png]]
+
+    Into this: [[./media/geojson_github.png]]
+
+*** Usage
+
+    Check out the repository, open `travel_log.org` and run `C-c C-v C-b` to run
+    all the blocks. The editable travel log appears after the first two blocks
+    have been executed.
+
+*** Requirements
+
+    - Emacs with `org-mode`
+    - Ruby `>= 1.9`
+    - Ruby gem `geocoder`
+
+*** Inspiration
+
+    [Literate Devops with Emacs](https://www.youtube.com/watch?v=dljNabciEGg) by
+    [Howard Abrams](https://www.youtube.com/channel/UCVHICXXtKG7rZgtC5xonNdQ)
+
+** Organizing your geoJSON travel log
+
+   Load the travel log from the existing geoJSON file, so we can edit it.
+
+   #+BEGIN_SRC ruby :var travellog=travellog geojson_file=geojson-file
 require 'json'
 require 'date'
 
@@ -28,38 +63,40 @@ else
 end
 #+END_SRC
 
-  #+NAME: travellog
-  #+RESULTS:
+   #+NAME: travellog
+   #+RESULTS:
 
-** Backend
-   :PROPERTIES:
-   :VISIBILITY: folded
-   :END:
+*** Backend
+    :PROPERTIES:
+    :VISIBILITY: folded
+    :END:
 
-*** geoJSON file
+**** geoJSON file
 
-    Search the current directory for a geoJSON file. Please make sure that there
-    is only one, otherwise unexpected behavior may occur.
+     Search the current directory for a geoJSON file. Please make sure that
+     there is only one, otherwise unexpected behavior may occur.
 
-    #+NAME: geojson-file
-    #+BEGIN_SRC sh
+     #+NAME: geojson-file
+     #+BEGIN_SRC sh
 ls . | grep .geojson | head -n 1
   #+END_SRC
 
-*** Interacting with geocoding API
+     #+RESULTS: geojson-file
 
-    Extract the locations from the travel log and geocode them. We don't want to
-    exceed the Google Maps API limits, so we save the coordinates in a
-    table. Furthermore, we also warm the cache by extracting coordinates from the
-    geoJSON travel log when the cache is empty.
+**** Interacting with geocoding API
 
-    Please check the table for error messages when a location is not found, or
-    something else goes wrong.
+     Extract the locations from the travel log and geocode them. We don't want to
+     exceed the Google Maps API limits, so we save the coordinates in a
+     table. Furthermore, we also warm the cache by extracting coordinates from
+     the geoJSON travel log when the cache is empty.
 
-    #+HEADER: :var travellog=travellog
-    #+HEADER: :var cache_table=geo-cache
-    #+HEADER: :var geojson_file=geojson-file
-    #+BEGIN_SRC ruby
+     Please check the table for error messages when a location is not found, or
+     something else goes wrong.
+
+     #+HEADER: :var travellog=travellog
+     #+HEADER: :var cache_table=geo-cache
+     #+HEADER: :var geojson_file=geojson-file
+     #+BEGIN_SRC ruby
 require 'json'
 require 'geocoder'
 
@@ -111,19 +148,18 @@ distinct_locations.map do |location|
 end
 #+END_SRC
 
-    #+NAME: geo-cache
-    #+RESULTS:
+     #+NAME: geo-cache
+     #+RESULTS:
 
-*** Decorate travel log with geocoded data
+**** Decorate travel log with geocoded data
 
-    Combine the travel log and geocode cache to construct a geoJSON file. After
-    that, we save the file.
+     Combine the travel log and geocode cache to construct a geoJSON file. After
+     that, we save the file.
 
-    #+HEADER: :var travellog=travellog geo_cache=geo-cache geojson_file=geojson-file
-    #+HEADER: :results silent
-    #+BEGIN_SRC ruby
-require 'date'
-require 'json'
+     #+HEADER: :var travellog=travellog geo_cache=geo-cache geojson_file=geojson-file
+     #+HEADER: :results silent
+     #+BEGIN_SRC ruby
+require 'date' require 'json'
 
 geo = Hash[geo_cache.map do |entry|
   location, lng, lat = entry
@@ -185,11 +221,11 @@ output = JSON.pretty_generate(
 open(geojson_file, 'w') { |file| file.write output }
 #+END_SRC
 
-*** Version control
+**** Version control
 
     Commit only the geoJSON file and push everything to the remote (e.g. GitHub).
 
     #+BEGIN_SRC sh :results raw silent :var GEOJSON_FILE=geojson-file
 git commit --message 'Update travel log' $GEOJSON_FILE
 git push
-  #+END_SRC
+    #+END_SRC
