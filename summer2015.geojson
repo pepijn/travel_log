@@ -50,7 +50,7 @@
       "properties": {
         "Location": "Mammendorf, Germany",
         "Remarks": "Sustainable farm",
-        "Arrival date": "2015-06-28",
+        "Arrival date": "2015-06-27",
         "Departure date": "2015-06-28"
       }
     },
@@ -86,7 +86,7 @@
       },
       "properties": {
         "Location": "Camping Bertahof, Bad Hofgastein",
-        "Arrival date": "2015-06-29",
+        "Arrival date": "2015-06-28",
         "Departure date": "2015-06-29"
       }
     },
@@ -159,7 +159,7 @@
       },
       "properties": {
         "Location": "Camping Rialto, Venice",
-        "Arrival date": "2015-06-30",
+        "Arrival date": "2015-06-29",
         "Departure date": "2015-06-30"
       }
     },
@@ -195,7 +195,7 @@
       },
       "properties": {
         "Location": "Venice",
-        "Arrival date": "2015-07-01",
+        "Arrival date": "2015-06-30",
         "Departure date": "2015-07-01"
       }
     },
@@ -231,7 +231,7 @@
       },
       "properties": {
         "Location": "Camping Škrila, Punat",
-        "Arrival date": "2015-07-03",
+        "Arrival date": "2015-07-01",
         "Departure date": "2015-07-03"
       }
     },
@@ -303,7 +303,7 @@
       },
       "properties": {
         "Location": "Mostar",
-        "Arrival date": "2015-07-04",
+        "Arrival date": "2015-07-03",
         "Departure date": "2015-07-04"
       }
     },
@@ -413,7 +413,7 @@
       "properties": {
         "Location": "Dubrovnik",
         "Remarks": "Nightlife",
-        "Arrival date": "2015-07-05",
+        "Arrival date": "2015-07-04",
         "Departure date": "2015-07-05"
       }
     },
@@ -522,7 +522,7 @@
       },
       "properties": {
         "Location": "Hostel 4U, Kotor, Montenegro",
-        "Arrival date": "2015-07-07",
+        "Arrival date": "2015-07-05",
         "Departure date": "2015-07-07"
       }
     },
@@ -558,7 +558,7 @@
       },
       "properties": {
         "Location": "Tirana, Albania",
-        "Arrival date": "2015-07-09",
+        "Arrival date": "2015-07-07",
         "Departure date": "2015-07-09"
       }
     },
@@ -630,7 +630,7 @@
       },
       "properties": {
         "Location": "Prishtina, Kosovo",
-        "Arrival date": "2015-07-10",
+        "Arrival date": "2015-07-09",
         "Departure date": "2015-07-10"
       }
     },
@@ -702,7 +702,7 @@
       },
       "properties": {
         "Location": "Prishtina, Kosovo",
-        "Arrival date": "2015-07-11",
+        "Arrival date": "2015-07-10",
         "Departure date": "2015-07-11"
       }
     },
@@ -775,7 +775,7 @@
       },
       "properties": {
         "Location": "Budapest",
-        "Arrival date": "2015-07-14",
+        "Arrival date": "2015-07-11",
         "Departure date": "2015-07-14"
       }
     },
@@ -883,7 +883,7 @@
       },
       "properties": {
         "Location": "Hostel Marabou, Koněvova 738/55, Prague",
-        "Arrival date": "2015-07-15",
+        "Arrival date": "2015-07-14",
         "Departure date": "2015-07-15"
       }
     },
@@ -919,7 +919,7 @@
       },
       "properties": {
         "Location": "Leipzig",
-        "Arrival date": "2015-07-16",
+        "Arrival date": "2015-07-15",
         "Departure date": "2015-07-16"
       }
     },
@@ -956,7 +956,7 @@
       "properties": {
         "Location": "Ferropolis",
         "Remarks": "Melt! Festival",
-        "Arrival date": "2015-07-19",
+        "Arrival date": "2015-07-16",
         "Departure date": "2015-07-19"
       }
     },
@@ -993,7 +993,7 @@
       "properties": {
         "Location": "Nieuwe Prinsengracht, Amsterdam",
         "Remarks": "Early exit, exams",
-        "Arrival date": "2015-07-28",
+        "Arrival date": "2015-07-19",
         "Departure date": "2015-07-28"
       }
     },
@@ -1066,7 +1066,7 @@
       },
       "properties": {
         "Location": "Nieuwe Prinsengracht, Amsterdam",
-        "Arrival date": "2015-07-29",
+        "Arrival date": "2015-07-28",
         "Departure date": "2015-07-29"
       }
     },
@@ -1103,7 +1103,7 @@
       "properties": {
         "Location": "Science Park, Amsterdam",
         "Remarks": "Pharmacology exam",
-        "Arrival date": "2015-07-30",
+        "Arrival date": "2015-07-29",
         "Departure date": "2015-07-30"
       }
     },
@@ -1140,7 +1140,7 @@
       "properties": {
         "Location": "Nieuwe Meerlaan 1",
         "Remarks": "Dekmantel Festival",
-        "Arrival date": "2015-08-03",
+        "Arrival date": "2015-07-30",
         "Departure date": "2015-08-03"
       }
     },
@@ -1176,7 +1176,7 @@
       },
       "properties": {
         "Location": "Nieuwe Prinsengracht, Amsterdam",
-        "Arrival date": "2015-08-10",
+        "Arrival date": "2015-08-03",
         "Departure date": "2015-08-10"
       }
     },
@@ -1213,7 +1213,7 @@
       "properties": {
         "Location": "Prague 1",
         "Remarks": "Nightlife",
-        "Arrival date": "2015-08-11",
+        "Arrival date": "2015-08-10",
         "Departure date": "2015-08-11"
       }
     },
@@ -1286,7 +1286,7 @@
       },
       "properties": {
         "Location": "Old Town, Prague",
-        "Arrival date": "2015-08-12",
+        "Arrival date": "2015-08-11",
         "Departure date": "2015-08-12"
       }
     },
@@ -1360,7 +1360,7 @@
       "properties": {
         "Location": "Berlin",
         "Remarks": "Watergate",
-        "Arrival date": "2015-08-13",
+        "Arrival date": "2015-08-12",
         "Departure date": "2015-08-13"
       }
     },
@@ -1396,7 +1396,7 @@
       },
       "properties": {
         "Location": "Hamburg",
-        "Arrival date": "2015-08-14",
+        "Arrival date": "2015-08-13",
         "Departure date": "2015-08-14"
       }
     },
@@ -1432,7 +1432,7 @@
       },
       "properties": {
         "Location": "Utrecht",
-        "Arrival date": "2015-08-17",
+        "Arrival date": "2015-08-14",
         "Departure date": "2015-08-17"
       }
     },
@@ -1468,7 +1468,7 @@
       },
       "properties": {
         "Location": "Nieuwe Prinsengracht, Amsterdam",
-        "Arrival date": "2015-08-20",
+        "Arrival date": "2015-08-17",
         "Departure date": "2015-08-20"
       }
     },
@@ -1541,7 +1541,7 @@
       },
       "properties": {
         "Location": "Nieuwe Prinsengracht, Amsterdam",
-        "Arrival date": "2015-08-21",
+        "Arrival date": "2015-08-20",
         "Departure date": "2015-08-21"
       }
     },
@@ -1578,7 +1578,7 @@
       "properties": {
         "Location": "Biddinghuizen",
         "Remarks": "Lowlands Festival with Blendle",
-        "Arrival date": "2015-08-23",
+        "Arrival date": "2015-08-21",
         "Departure date": "2015-08-23"
       }
     },
@@ -1614,7 +1614,7 @@
       },
       "properties": {
         "Location": "Nieuwe Prinsengracht, Amsterdam",
-        "Arrival date": "2015-08-29",
+        "Arrival date": "2015-08-23",
         "Departure date": "2015-08-29"
       }
     },
