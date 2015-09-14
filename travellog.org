@@ -72,14 +72,19 @@ distinct_locations.uniq!
 distinct_locations.sort!
 
 distinct_locations.map do |location|
-  lnglat = cache[location]
-  lnglat ||= begin
-               geo = Geocoder.search location
-               loc = geo.first.geometry['location']
-               [loc['lng'], loc['lat']]
-             rescue => e
-               [e.inspect, '']
-             end
+  lnglat = cache[location] || begin
+                                geo = Geocoder.search location
+                                result = geo.first
+
+                                if result
+                                  loc = geo.first.geometry['location']
+                                  [loc['lng'], loc['lat']]
+                                else
+                                  ['Location not found...', '']
+                                end
+                              rescue => e
+                                [e.inspect, '']
+                              end
 
   [location, *lnglat]
 end.compact
@@ -157,7 +162,7 @@ open(geojson_file, 'w') { |file| file.write output }
 
 Push the GeoJSON file to GitHub.
 
-#+BEGIN_SRC sh :results silent :var GEOJSON_FILE=geojson-file
-git commit -m 'Update travellog' $GEOJSON_FILE
+#+BEGIN_SRC sh :results raw silent :var GEOJSON_FILE=geojson-file
+git commit --message 'Update travellog' $GEOJSON_FILE
 git push
 #+END_SRC
