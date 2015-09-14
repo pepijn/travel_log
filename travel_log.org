@@ -1,24 +1,10 @@
-#+STARTUP: hideblocks
+#+STARTUP: showall hideblocks
 
 * Organizing your geoJSON travel log
-** geoJSON file
 
-   Search the current directory for a geoJSON file. Please make sure that there
-   is only one, otherwise unexpected behavior may occur.
+  Load the travel log from the existing geoJSON file, so we can edit it.
 
-   #+NAME: geojson-file
-   #+BEGIN_SRC sh
-ls . | grep .geojson | head -n 1
-  #+END_SRC
-
-** The travel log
-   :PROPERTIES:
-  :VISIBILITY: all
-  :END:
-
-   Load the travel log from the existing geoJSON file, so we can edit it.
-
-   #+BEGIN_SRC ruby :var travellog=travellog geojson_file=geojson-file
+  #+BEGIN_SRC ruby :var travellog=travellog geojson_file=geojson-file
 require 'json'
 require 'date'
 
@@ -42,12 +28,26 @@ else
 end
 #+END_SRC
 
-   #+NAME: travellog
-   #+RESULTS:
+  #+NAME: travellog
+  #+RESULTS:
 
-** Geocoding
+** Backend
+   :PROPERTIES:
+   :VISIBILITY: folded
+   :END:
+
+*** geoJSON file
+
+    Search the current directory for a geoJSON file. Please make sure that there
+    is only one, otherwise unexpected behavior may occur.
+
+    #+NAME: geojson-file
+    #+BEGIN_SRC sh
+ls . | grep .geojson | head -n 1
+  #+END_SRC
 
 *** Interacting with geocoding API
+
     Extract the locations from the travel log and geocode them. We don't want to
     exceed the Google Maps API limits, so we save the coordinates in a
     table. Furthermore, we also warm the cache by extracting coordinates from the
@@ -112,6 +112,7 @@ end
 #+END_SRC
 
     #+NAME: geo-cache
+    #+RESULTS:
 
 *** Decorate travel log with geocoded data
 
@@ -184,11 +185,11 @@ output = JSON.pretty_generate(
 open(geojson_file, 'w') { |file| file.write output }
 #+END_SRC
 
-** Version control
+*** Version control
 
-   Commit only the geoJSON file and push everything to the remote (e.g. GitHub).
+    Commit only the geoJSON file and push everything to the remote (e.g. GitHub).
 
-   #+BEGIN_SRC sh :results raw silent :var GEOJSON_FILE=geojson-file
+    #+BEGIN_SRC sh :results raw silent :var GEOJSON_FILE=geojson-file
 git commit --message 'Update travel log' $GEOJSON_FILE
 git push
   #+END_SRC
