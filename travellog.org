@@ -83,7 +83,7 @@ end.compact
 #+NAME: geo-cache
 #+RESULTS:
 
-Turn the travellog table into GeoJSON.
+Turn the travellog table into GeoJSON using the geo-cache table.
 
 #+HEADER: :var log=log geo_cache=geo-cache
 #+HEADER: :results output
