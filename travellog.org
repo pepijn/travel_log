@@ -151,7 +151,6 @@ puts JSON.pretty_generate(
 Push the GeoJSON file to GitHub.
 
 #+BEGIN_SRC sh :results silent
-git add summer2015.geojson
-git commit -m 'Update travellog'
+git commit -m 'Update travellog' summer2015.geojson
 git push
 #+END_SRC
