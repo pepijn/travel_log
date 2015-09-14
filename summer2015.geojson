@@ -273,13 +273,48 @@
             43.3422732
           ],
           [
+            "",
+            ""
+          ]
+        ]
+      },
+      "properties": {
+        "Origin": "Hostel David, Mostar",
+        "Destination": "Mostar",
+        "Arrival date": "2015-07-03"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          "",
+          ""
+        ]
+      },
+      "properties": {
+        "Location": "Mostar",
+        "Date": "2015-07-03"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            "",
+            ""
+          ],
+          [
             17.6044259,
             43.1501052
           ]
         ]
       },
       "properties": {
-        "Origin": "Hostel David, Mostar",
+        "Origin": "Mostar",
         "Destination": "43.1561568,17.6085656",
         "Arrival date": "2015-07-04"
       }
