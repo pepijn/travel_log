@@ -16,3 +16,9 @@ Into this:
 Check out the repository, open `travel_log.org` and run `C-c C-v C-b` to run all
 the blocks. The editable travel log appears after the first two blocks have been
 executed.
+
+## Requirements
+
+* Emacs with `org-mode`
+* Ruby `>= 1.9`
+* Ruby gem `geocoder`
