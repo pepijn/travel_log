@@ -1,23 +1,24 @@
 #+STARTUP: hideblocks
 
-* geoJSON file
+* Organizing your geoJSON travel log
+** geoJSON file
 
-  Search the current directory for a geoJSON file. Please make sure that there
-  is only one, otherwise unexpected behavior may occur.
+   Search the current directory for a geoJSON file. Please make sure that there
+   is only one, otherwise unexpected behavior may occur.
 
-  #+NAME: geojson-file
-  #+BEGIN_SRC sh
+   #+NAME: geojson-file
+   #+BEGIN_SRC sh
 ls . | grep .geojson | head -n 1
   #+END_SRC
 
-* Travel log
-  :PROPERTIES:
+** The travel log
+   :PROPERTIES:
   :VISIBILITY: all
   :END:
 
-  Load the travel log from the existing geoJSON file, so we can edit it.
+   Load the travel log from the existing geoJSON file, so we can edit it.
 
-  #+BEGIN_SRC ruby :var travellog=travellog geojson_file=geojson-file
+   #+BEGIN_SRC ruby :var travellog=travellog geojson_file=geojson-file
 require 'json'
 require 'date'
 
@@ -41,23 +42,23 @@ else
 end
 #+END_SRC
 
-  #+NAME: travellog
-  #+RESULTS:
+   #+NAME: travellog
+   #+RESULTS:
 
-* Geocoding
+** Geocoding
 
-  Extract the locations from the travel log and geocode them. We don't want to
-  exceed the Google Maps API limits, so we save the coordinates in a
-  table. Furthermore, we also warm the cache by extracting coordinates from the
-  geoJSON travel log when the cache is empty.
+   Extract the locations from the travel log and geocode them. We don't want to
+   exceed the Google Maps API limits, so we save the coordinates in a
+   table. Furthermore, we also warm the cache by extracting coordinates from the
+   geoJSON travel log when the cache is empty.
 
-  Please check the table for error messages when a location is not found, or
-  something else goes wrong.
+   Please check the table for error messages when a location is not found, or
+   something else goes wrong.
 
-  #+HEADER: :var travellog=travellog
-  #+HEADER: :var cache_table=geo-cache
-  #+HEADER: :var geojson_file=geojson-file
-  #+BEGIN_SRC ruby
+   #+HEADER: :var travellog=travellog
+   #+HEADER: :var cache_table=geo-cache
+   #+HEADER: :var geojson_file=geojson-file
+   #+BEGIN_SRC ruby
 require 'json'
 require 'geocoder'
 
@@ -109,15 +110,14 @@ distinct_locations.map do |location|
 end
 #+END_SRC
 
-  #+NAME: geo-cache
-  #+RESULTS:
+   #+NAME: geo-cache
 
-  Combine the travel log and geocode cache to construct a geoJSON file. After
-  that, we save the file.
+   Combine the travel log and geocode cache to construct a geoJSON file. After
+   that, we save the file.
 
-  #+HEADER: :var travellog=travellog geo_cache=geo-cache geojson_file=geojson-file
-  #+HEADER: :results silent
-  #+BEGIN_SRC ruby
+   #+HEADER: :var travellog=travellog geo_cache=geo-cache geojson_file=geojson-file
+   #+HEADER: :results silent
+   #+BEGIN_SRC ruby
 require 'date'
 require 'json'
 
@@ -181,11 +181,11 @@ output = JSON.pretty_generate(
 open(geojson_file, 'w') { |file| file.write output }
 #+END_SRC
 
-* Version control
+** Version control
 
-  Commit only the geoJSON file and push everything to the remote (e.g. GitHub).
+   Commit only the geoJSON file and push everything to the remote (e.g. GitHub).
 
-  #+BEGIN_SRC sh :results raw silent :var GEOJSON_FILE=geojson-file
+   #+BEGIN_SRC sh :results raw silent :var GEOJSON_FILE=geojson-file
 git commit --message 'Update travel log' $GEOJSON_FILE
 git push
   #+END_SRC
