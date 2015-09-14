@@ -1224,14 +1224,14 @@
             53.5510846
           ],
           [
-            5.1214201,
-            52.09073739999999
+            5.1319021,
+            52.1080517
           ]
         ]
       },
       "properties": {
         "Origin": "A&O Hamburg City, Hamburg",
-        "Destination": "Utrecht",
+        "Destination": "Tuindorp, Utrecht",
         "Departure date": "2015-08-13",
         "Arrival date": "2015-08-14"
       }
@@ -1241,12 +1241,12 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          5.1214201,
-          52.09073739999999
+          5.1319021,
+          52.1080517
         ]
       },
       "properties": {
-        "Location": "Utrecht",
+        "Location": "Tuindorp, Utrecht",
         "Arrival date": "2015-08-14",
         "Departure date": "2015-08-17"
       }
@@ -1257,8 +1257,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            5.1214201,
-            52.09073739999999
+            5.1319021,
+            52.1080517
           ],
           [
             4.9083263,
@@ -1267,7 +1267,7 @@
         ]
       },
       "properties": {
-        "Origin": "Utrecht",
+        "Origin": "Tuindorp, Utrecht",
         "Destination": "Nieuwe Prinsengracht, Amsterdam",
         "Departure date": "2015-08-14",
         "Arrival date": "2015-08-17"
