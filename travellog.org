@@ -44,9 +44,9 @@ require 'geocoder'
 
 if cache != 'nil'
   cache = Hash[cache.map do |item|
-                 location, lng, lat = item
-                 [location, [lng, lat]]
-               end]
+    location, lng, lat = item
+    [location, [lng, lat]]
+  end]
 else
   raw = JSON.parse open(geojson_file).read
   destinations = raw['features'].select do |entry|
@@ -54,19 +54,15 @@ else
   end
 
   cache = Hash[destinations.map do |dest|
-                 location = dest['properties']['Location']
-                 coordinates = dest['geometry']['coordinates']
-                 [location, coordinates]
-               end]
+    location = dest['properties']['Location']
+    coordinates = dest['geometry']['coordinates']
+    [location, coordinates]
+  end]
 end
 
-
 # Remove invalid values from cache
-cache.select! do |_, coords|
-  begin
-    coords.each { |coord| Float(coord) }
-  rescue ArgumentError # invalid value for Float()
-  end
+cache.reject! do |_, coords|
+  coords.map(&:to_f).include?(0.0)
 end
 
 distinct_locations = travellog.map do |entry|
@@ -78,15 +74,14 @@ distinct_locations.uniq!
 distinct_locations.sort!
 
 distinct_locations.map do |location|
-  unless lnglat = cache[location]
-    begin
-      geo = Geocoder.search location
-      loc = geo.first.geometry['location']
-      lnglat = [loc['lng'], loc['lat']]
-    rescue => e
-      lnglat = [e.inspect, ""]
-    end
-  end
+  lnglat = cache[location]
+  lnglat ||= begin
+               geo = Geocoder.search location
+               loc = geo.first.geometry['location']
+               [loc['lng'], loc['lat']]
+             rescue => e
+               [e.inspect, '']
+             end
 
   [location, *lnglat]
 end.compact
@@ -104,16 +99,16 @@ require 'date'
 require 'json'
 
 geo = Hash[geo_cache.map do |entry|
-             location, lng, lat = entry
-             [location, [lng, lat]]
-           end]
+  location, lng, lat = entry
+  [location, [lng, lat]]
+end]
 
 features = []
 travellog << nil
 travellog.each_cons(2) do |entry, cons_entry|
   org_date, location, remarks = entry
 
-  # Raise if coord is invalid
+  # Prevent invalid coords from being loaded
   geo[location].each do |coord|
     Float(coord)
   end
@@ -133,25 +128,25 @@ travellog.each_cons(2) do |entry, cons_entry|
     properties: properties
   }
 
-  if cons_entry
-    cons_org_date, cons_location = cons_entry
-    cons_date = Date.parse cons_org_date
+  next unless cons_entry
 
-    features.last[:properties]['Departure date'] = cons_date
+  cons_org_date, cons_location = cons_entry
+  cons_date = Date.parse cons_org_date
 
-    features << {
-      type: 'Feature',
-      geometry: {
-        type: 'LineString',
-        coordinates: [geo[location], geo[cons_location]]
-      },
-      properties: {
-        'Origin' => location,
-        'Destination' => cons_location,
-        'Arrival date' => cons_date
-      }
+  features.last[:properties]['Departure date'] = cons_date
+
+  features << {
+    type: 'Feature',
+    geometry: {
+      type: 'LineString',
+      coordinates: [geo[location], geo[cons_location]]
+    },
+    properties: {
+      'Origin' => location,
+      'Destination' => cons_location,
+      'Arrival date' => cons_date
     }
-  end
+  }
 end
 
 output = JSON.pretty_generate(
@@ -159,7 +154,7 @@ output = JSON.pretty_generate(
   features: features
 )
 
-open(geojson_file, 'w') { |f| f.write output }
+open(geojson_file, 'w') { |file| file.write output }
 #+END_SRC
 
 Push the GeoJSON file to GitHub.
