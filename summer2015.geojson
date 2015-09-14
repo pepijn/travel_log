@@ -33,7 +33,7 @@
       },
       "properties": {
         "Origin": "Nieuwe Prinsengracht, Amsterdam",
-        "Destination": "Mammendorf",
+        "Destination": "Mammendorf, Germany",
         "Arrival date": "2015-06-27"
       }
     },
@@ -47,7 +47,7 @@
         ]
       },
       "properties": {
-        "Location": "Mammendorf",
+        "Location": "Mammendorf, Germany",
         "Date": "2015-06-27",
         "Remarks": "Sustainable farm"
       }
@@ -68,7 +68,7 @@
         ]
       },
       "properties": {
-        "Origin": "Mammendorf",
+        "Origin": "Mammendorf, Germany",
         "Destination": "Camping Bertahof, Bad Hofgastein",
         "Arrival date": "2015-06-28"
       }
