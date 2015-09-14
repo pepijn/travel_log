@@ -61,9 +61,7 @@ else
 end
 
 # Remove invalid values from cache
-cache.reject! do |_, coords|
-  coords.map(&:to_f).include?(0.0)
-end
+cache.reject! { |_, coords| coords.map(&:to_f).include?(0.0) }
 
 distinct_locations = travellog.map do |entry|
   _, location = entry
