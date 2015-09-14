@@ -60,15 +60,15 @@ else
   end]
 end
 
-# Remove invalid values from cache
+# Remove invalid (e.g. strings with errors) values from cache
 cache.reject! { |_, coords| coords.map(&:to_f).include?(0.0) }
 
-distinct_locations = travellog.map do |entry|
+locations = travellog.map do |entry|
   _, location = entry
   location
 end
 
-distinct_locations.uniq!
+distinct_locations = locations.uniq
 distinct_locations.sort!
 
 distinct_locations.map do |location|
@@ -87,7 +87,7 @@ distinct_locations.map do |location|
                               end
 
   [location, *lnglat]
-end.compact
+end
 #+END_SRC
 
 #+NAME: geo-cache
