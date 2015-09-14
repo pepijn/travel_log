@@ -661,14 +661,14 @@
             42.1322895
           ],
           [
-            19.040235,
-            47.497912
+            19.05867,
+            47.509028
           ]
         ]
       },
       "properties": {
         "Origin": "Kumanovo, Macedonia",
-        "Destination": "Interflat Hostel & Apartments, Budapest",
+        "Destination": "Interflat Hostel & Apartments, Podmaniczky u. 27, Budapest",
         "Departure date": "2015-07-11",
         "Arrival date": "2015-07-11"
       }
@@ -678,12 +678,12 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          19.040235,
-          47.497912
+          19.05867,
+          47.509028
         ]
       },
       "properties": {
-        "Location": "Interflat Hostel & Apartments, Budapest",
+        "Location": "Interflat Hostel & Apartments, Podmaniczky u. 27, Budapest",
         "Arrival date": "2015-07-11",
         "Departure date": "2015-07-14"
       }
@@ -694,8 +694,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            19.040235,
-            47.497912
+            19.05867,
+            47.509028
           ],
           [
             14.4605156,
@@ -704,7 +704,7 @@
         ]
       },
       "properties": {
-        "Origin": "Interflat Hostel & Apartments, Budapest",
+        "Origin": "Interflat Hostel & Apartments, Podmaniczky u. 27, Budapest",
         "Destination": "Hostel Marabou, Koněvova 738/55, Prague",
         "Departure date": "2015-07-11",
         "Arrival date": "2015-07-14"
