@@ -22,3 +22,7 @@ executed.
 * Emacs with `org-mode`
 * Ruby `>= 1.9`
 * Ruby gem `geocoder`
+
+## Inspiration
+
+[Literate Devops with Emacs](https://www.youtube.com/watch?v=dljNabciEGg) by [Howard Abrams](https://www.youtube.com/channel/UCVHICXXtKG7rZgtC5xonNdQ)
