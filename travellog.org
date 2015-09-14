@@ -1,3 +1,5 @@
+#+STARTUP: hideblocks
+
 Find the GeoJSON file.
 
 #+NAME: geojson-file
