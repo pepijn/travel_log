@@ -1435,6 +1435,81 @@
       "properties": {
         "Location": "Nieuwe Prinsengracht, Amsterdam",
         "Arrival date": "2015-08-23",
+        "Departure date": "2015-08-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            4.9083263,
+            52.36366109999999
+          ],
+          [
+            5.106263999999999,
+            52.0899809
+          ]
+        ]
+      },
+      "properties": {
+        "Origin": "Nieuwe Prinsengracht, Amsterdam",
+        "Destination": "Jaarbeurs, Utrecht",
+        "Departure date": "2015-08-23",
+        "Arrival date": "2015-08-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.106263999999999,
+          52.0899809
+        ]
+      },
+      "properties": {
+        "Location": "Jaarbeurs, Utrecht",
+        "Remarks": "Blendle HQ",
+        "Arrival date": "2015-08-07",
+        "Departure date": "2015-08-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            5.106263999999999,
+            52.0899809
+          ],
+          [
+            4.9083263,
+            52.36366109999999
+          ]
+        ]
+      },
+      "properties": {
+        "Origin": "Jaarbeurs, Utrecht",
+        "Destination": "Nieuwe Prinsengracht, Amsterdam",
+        "Departure date": "2015-08-07",
+        "Arrival date": "2015-08-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.9083263,
+          52.36366109999999
+        ]
+      },
+      "properties": {
+        "Location": "Nieuwe Prinsengracht, Amsterdam",
+        "Arrival date": "2015-08-07",
         "Departure date": "2015-08-29"
       }
     },
@@ -1456,7 +1531,7 @@
       "properties": {
         "Origin": "Nieuwe Prinsengracht, Amsterdam",
         "Destination": "NDSM terrein, Amsterdam",
-        "Departure date": "2015-08-23",
+        "Departure date": "2015-08-07",
         "Arrival date": "2015-08-29"
       }
     },
