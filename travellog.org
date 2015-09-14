@@ -9,11 +9,11 @@ ls . | grep .geojson | head -n 1
 
 Load the travel log from the GeoJSON file, so we can edit it.
 
-#+BEGIN_SRC ruby :var log=log geojson_file=geojson-file
+#+BEGIN_SRC ruby :var travellog=travellog geojson_file=geojson-file
 require 'json'
 require 'date'
 
-if log == 'nil'
+if travellog == 'nil'
   geojson = JSON.parse open(geojson_file).read
   destinations = geojson['features'].select do |entry|
     entry['geometry']['type'] == 'Point'
@@ -26,16 +26,16 @@ if log == 'nil'
     [date.strftime('<%Y-%m-%d %a>'), location, remarks || '']
   end
 else
-  log
+  travellog
 end
 #+END_SRC
 
-#+NAME: log
+#+NAME: travellog
 #+RESULTS:
 
 Warm the cache from the GeoJSON file.
 
-#+BEGIN_SRC ruby :var log=log cache=geo-cache geojson_file=geojson-file
+#+BEGIN_SRC ruby :var travellog=travellog cache=geo-cache geojson_file=geojson-file
 require 'json'
 require 'geocoder'
 
@@ -66,7 +66,7 @@ cache.select! do |_, coords|
   end
 end
 
-distinct_locations = log.map do |entry|
+distinct_locations = travellog.map do |entry|
   _, location = entry
   location
 end
@@ -94,7 +94,7 @@ end.compact
 
 Turn the travellog table into GeoJSON using the geo-cache table.
 
-#+HEADER: :var log=log geo_cache=geo-cache geojson_file=geojson-file
+#+HEADER: :var travellog=travellog geo_cache=geo-cache geojson_file=geojson-file
 #+HEADER: :results silent
 #+BEGIN_SRC ruby
 require 'date'
@@ -106,8 +106,8 @@ geo = Hash[geo_cache.map do |entry|
            end]
 
 features = []
-log << nil
-log.each_cons(2) do |entry, cons_entry|
+travellog << nil
+travellog.each_cons(2) do |entry, cons_entry|
   org_date, location, remarks = entry
 
   # Raise if coord is invalid
