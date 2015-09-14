@@ -181,7 +181,7 @@ output = JSON.pretty_generate(
 open(geojson_file, 'w') { |file| file.write output }
 #+END_SRC
 
-* Saving
+* Version control
 
   Commit only the geoJSON file and push everything to the remote (e.g. GitHub).
 
