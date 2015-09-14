@@ -13,4 +13,6 @@ Into this:
 
 ## Usage
 
-Check out the repository, open `travel_log.org` and run `C-c C-v C-b` to run all the blocks.
+Check out the repository, open `travel_log.org` and run `C-c C-v C-b` to run all
+the blocks. The editable travel log appears after the first two blocks have been
+executed.
