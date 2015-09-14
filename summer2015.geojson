@@ -1046,14 +1046,14 @@
             50.0862754
           ],
           [
-            13.404954,
-            52.52000659999999
+            13.44009,
+            52.54114
           ]
         ]
       },
       "properties": {
         "Origin": "Kožná, Prague",
-        "Destination": "Berlin",
+        "Destination": "Prenzlauer Berg, Berlin",
         "Arrival date": "2015-08-12"
       }
     },
@@ -1062,12 +1062,12 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          13.404954,
-          52.52000659999999
+          13.44009,
+          52.54114
         ]
       },
       "properties": {
-        "Location": "Berlin",
+        "Location": "Prenzlauer Berg, Berlin",
         "Remarks": "Watergate",
         "Arrival date": "2015-08-12",
         "Departure date": "2015-08-13"
@@ -1079,8 +1079,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            13.404954,
-            52.52000659999999
+            13.44009,
+            52.54114
           ],
           [
             9.9936818,
@@ -1089,8 +1089,8 @@
         ]
       },
       "properties": {
-        "Origin": "Berlin",
-        "Destination": "Hamburg",
+        "Origin": "Prenzlauer Berg, Berlin",
+        "Destination": "A&O Hamburg City, Hamburg",
         "Arrival date": "2015-08-13"
       }
     },
@@ -1104,7 +1104,7 @@
         ]
       },
       "properties": {
-        "Location": "Hamburg",
+        "Location": "A&O Hamburg City, Hamburg",
         "Arrival date": "2015-08-13",
         "Departure date": "2015-08-14"
       }
@@ -1125,7 +1125,7 @@
         ]
       },
       "properties": {
-        "Origin": "Hamburg",
+        "Origin": "A&O Hamburg City, Hamburg",
         "Destination": "Utrecht",
         "Arrival date": "2015-08-14"
       }
