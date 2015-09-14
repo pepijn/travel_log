@@ -1,18 +1,23 @@
+#+NAME: geojson-file
+#+BEGIN_SRC sh
+ls . | grep .geojson
+#+END_SRC
+
 Load the travel log from the GeoJSON file.
 
-#+BEGIN_SRC ruby :var log=log
+#+BEGIN_SRC ruby :var log=log geojson_file=geojson-file
 require 'json'
 require 'date'
 
 if log == 'nil'
-  raw = JSON.parse open('summer2015.geojson').read
-  destinations = raw['features'].select do |entry|
+  geojson = JSON.parse open(geojson_file).read
+  destinations = geojson['features'].select do |entry|
     entry['geometry']['type'] == 'Point'
   end
 
   destinations.map do |dest|
-    prop = dest['properties']
-    org_date, location, remarks = prop['Date'], prop['Location'], prop['Remarks']
+    prp = dest['properties']
+    org_date, location, remarks = prp['Date'], prp['Location'], prp['Remarks']
     date = Date.parse org_date
     [date.strftime('<%Y-%m-%d %a>'), location, remarks || '']
   end
@@ -26,7 +31,7 @@ end
 
 Warm the cache from the GeoJSON file.
 
-#+BEGIN_SRC ruby :var log=log cache=geo-cache
+#+BEGIN_SRC ruby :var log=log cache=geo-cache geojson_file=geojson-file
 require 'json'
 require 'geocoder'
 
@@ -36,7 +41,7 @@ if cache != 'nil'
                  [location, [lng, lat]]
                end]
 else
-  raw = JSON.parse open('summer2015.geojson').read
+  raw = JSON.parse open(geojson_file).read
   destinations = raw['features'].select do |entry|
     entry['geometry']['type'] == 'Point'
   end
@@ -85,9 +90,8 @@ end.compact
 
 Turn the travellog table into GeoJSON using the geo-cache table.
 
-#+HEADER: :var log=log geo_cache=geo-cache
-#+HEADER: :results output
-#+HEADER: :file summer2015.geojson
+#+HEADER: :var log=log geo_cache=geo-cache geojson_file=geojson-file
+#+HEADER: :results silent
 #+BEGIN_SRC ruby
 require 'date'
 require 'json'
@@ -140,17 +144,17 @@ log.each_cons(2) do |entry, cons_entry|
   end
 end
 
-puts JSON.pretty_generate(
+output = JSON.pretty_generate(
   type: 'FeatureCollection',
   features: features
 )
-#+END_SRC
 
-#+RESULTS:
+open(geojson_file, 'w') { |f| f.write output }
+#+END_SRC
 
 Push the GeoJSON file to GitHub.
 
-#+BEGIN_SRC sh :results silent
-git commit -m 'Update travellog' summer2015.geojson
+#+BEGIN_SRC sh :results silent :var GEOJSON_FILE=geojson-file
+git commit -m 'Update travellog' $GEOJSON_FILE
 git push
 #+END_SRC
