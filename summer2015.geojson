@@ -1,0 +1,1265 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.9083263,
+          52.36366109999999
+        ]
+      },
+      "properties": {
+        "Location": "Nieuwe Prinsengracht, Amsterdam",
+        "Date": "2015-06-27",
+        "Remarks": "Departure"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            4.9083263,
+            52.36366109999999
+          ],
+          [
+            11.1674197,
+            48.2106139
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.1674197,
+          48.2106139
+        ]
+      },
+      "properties": {
+        "Location": "Mammendorf",
+        "Date": "2015-06-27",
+        "Remarks": "Sustainable farm"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            11.1674197,
+            48.2106139
+          ],
+          [
+            13.1182806,
+            47.1440566
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.1182806,
+          47.1440566
+        ]
+      },
+      "properties": {
+        "Location": "Camping Bertahof, Bad Hofgastein",
+        "Date": "2015-06-28"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            13.1182806,
+            47.1440566
+          ],
+          [
+            13.0987448,
+            47.1725556
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0987448,
+          47.1725556
+        ]
+      },
+      "properties": {
+        "Location": "Bad Hofgastein",
+        "Date": "2015-06-29",
+        "Remarks": "Climbed mountain"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            13.0987448,
+            47.1725556
+          ],
+          [
+            12.283282,
+            45.48430099999999
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.283282,
+          45.48430099999999
+        ]
+      },
+      "properties": {
+        "Location": "Camping Rialto, Venice",
+        "Date": "2015-06-29"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            12.283282,
+            45.48430099999999
+          ],
+          [
+            12.3155151,
+            45.4408474
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.3155151,
+          45.4408474
+        ]
+      },
+      "properties": {
+        "Location": "Venice",
+        "Date": "2015-06-30"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            12.3155151,
+            45.4408474
+          ],
+          [
+            14.674125,
+            44.96644000000001
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.674125,
+          44.96644000000001
+        ]
+      },
+      "properties": {
+        "Location": "Camping Škrila, Punat",
+        "Date": "2015-07-01"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            14.674125,
+            44.96644000000001
+          ],
+          [
+            17.8127536,
+            43.3422732
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.8127536,
+          43.3422732
+        ]
+      },
+      "properties": {
+        "Location": "Hostel David, Mostar",
+        "Date": "2015-07-03"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            17.8127536,
+            43.3422732
+          ],
+          [
+            17.6044259,
+            43.1501052
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.6044259,
+          43.1501052
+        ]
+      },
+      "properties": {
+        "Location": "43.1561568,17.6085656",
+        "Date": "2015-07-04",
+        "Remarks": "Waterfalls"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            17.6044259,
+            43.1501052
+          ],
+          [
+            18.1334173,
+            42.6690164
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.1334173,
+          42.6690164
+        ]
+      },
+      "properties": {
+        "Location": "Hostel Dubrovnik, Komolac, Croatia",
+        "Date": "2015-07-04"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            18.1334173,
+            42.6690164
+          ],
+          [
+            18.0944238,
+            42.65066059999999
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.0944238,
+          42.65066059999999
+        ]
+      },
+      "properties": {
+        "Location": "Dubrovnik",
+        "Date": "2015-07-04",
+        "Remarks": "Nightlife"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            18.0944238,
+            42.65066059999999
+          ],
+          [
+            18.1334173,
+            42.6690164
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.1334173,
+          42.6690164
+        ]
+      },
+      "properties": {
+        "Location": "Hostel Dubrovnik, Komolac, Croatia",
+        "Date": "2015-07-05"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            18.1334173,
+            42.6690164
+          ],
+          [
+            18.0944238,
+            42.65066059999999
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.0944238,
+          42.65066059999999
+        ]
+      },
+      "properties": {
+        "Location": "Dubrovnik",
+        "Date": "2015-07-05",
+        "Remarks": "Old city"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            18.0944238,
+            42.65066059999999
+          ],
+          [
+            18.7659793,
+            42.4392434
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.7659793,
+          42.4392434
+        ]
+      },
+      "properties": {
+        "Location": "Hostel 4U, Kotor, Montenegro",
+        "Date": "2015-07-05"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            18.7659793,
+            42.4392434
+          ],
+          [
+            19.8186982,
+            41.3275459
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.8186982,
+          41.3275459
+        ]
+      },
+      "properties": {
+        "Location": "Tirana, Albania",
+        "Date": "2015-07-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            19.8186982,
+            41.3275459
+          ],
+          [
+            21.1655028,
+            42.6629138
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.1655028,
+          42.6629138
+        ]
+      },
+      "properties": {
+        "Location": "Prishtina, Kosovo",
+        "Date": "2015-07-09"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            21.1655028,
+            42.6629138
+          ],
+          [
+            20.5900751,
+            42.5277728
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.5900751,
+          42.5277728
+        ]
+      },
+      "properties": {
+        "Location": "Mirusha Waterfalls, Kosovo",
+        "Date": "2015-07-10"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            20.5900751,
+            42.5277728
+          ],
+          [
+            21.1655028,
+            42.6629138
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.1655028,
+          42.6629138
+        ]
+      },
+      "properties": {
+        "Location": "Prishtina, Kosovo",
+        "Date": "2015-07-10"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            21.1655028,
+            42.6629138
+          ],
+          [
+            21.7256936,
+            42.1322895
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.7256936,
+          42.1322895
+        ]
+      },
+      "properties": {
+        "Location": "Kumanovo, Macedonia",
+        "Date": "2015-07-11",
+        "Remarks": "Dodging borders"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            21.7256936,
+            42.1322895
+          ],
+          [
+            19.040235,
+            47.497912
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.040235,
+          47.497912
+        ]
+      },
+      "properties": {
+        "Location": "Budapest",
+        "Date": "2015-07-11"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            19.040235,
+            47.497912
+          ],
+          [
+            14.4605156,
+            50.0889293
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.4605156,
+          50.0889293
+        ]
+      },
+      "properties": {
+        "Location": "Hostel Marabou, Koněvova 738/55, Prague",
+        "Date": "2015-07-14"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            14.4605156,
+            50.0889293
+          ],
+          [
+            14.4378005,
+            50.0755381
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.4378005,
+          50.0755381
+        ]
+      },
+      "properties": {
+        "Location": "Prague",
+        "Date": "2015-07-14"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            14.4378005,
+            50.0755381
+          ],
+          [
+            14.4605156,
+            50.0889293
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.4605156,
+          50.0889293
+        ]
+      },
+      "properties": {
+        "Location": "Hostel Marabou, Koněvova 738/55, Prague",
+        "Date": "2015-07-14"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            14.4605156,
+            50.0889293
+          ],
+          [
+            12.3730747,
+            51.3396955
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.3730747,
+          51.3396955
+        ]
+      },
+      "properties": {
+        "Location": "Leipzig",
+        "Date": "2015-07-15"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            12.3730747,
+            51.3396955
+          ],
+          [
+            12.4471383,
+            51.7582836
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.4471383,
+          51.7582836
+        ]
+      },
+      "properties": {
+        "Location": "Ferropolis",
+        "Date": "2015-07-16",
+        "Remarks": "Melt! Festival"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            12.4471383,
+            51.7582836
+          ],
+          [
+            4.9083263,
+            52.36366109999999
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.9083263,
+          52.36366109999999
+        ]
+      },
+      "properties": {
+        "Location": "Nieuwe Prinsengracht, Amsterdam",
+        "Date": "2015-07-19",
+        "Remarks": "Early exit, exams"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            4.9083263,
+            52.36366109999999
+          ],
+          [
+            4.9540186,
+            52.35534269999999
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.9540186,
+          52.35534269999999
+        ]
+      },
+      "properties": {
+        "Location": "Science Park, Amsterdam",
+        "Date": "2015-07-28",
+        "Remarks": "Oncology exam"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            4.9540186,
+            52.35534269999999
+          ],
+          [
+            4.9083263,
+            52.36366109999999
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.9083263,
+          52.36366109999999
+        ]
+      },
+      "properties": {
+        "Location": "Nieuwe Prinsengracht, Amsterdam",
+        "Date": "2015-07-28"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            4.9083263,
+            52.36366109999999
+          ],
+          [
+            4.9540186,
+            52.35534269999999
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.9540186,
+          52.35534269999999
+        ]
+      },
+      "properties": {
+        "Location": "Science Park, Amsterdam",
+        "Date": "2015-07-29",
+        "Remarks": "Pharmacology exam"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            4.9540186,
+            52.35534269999999
+          ],
+          [
+            4.8167326,
+            52.3061265
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.8167326,
+          52.3061265
+        ]
+      },
+      "properties": {
+        "Location": "Nieuwe Meerlaan 1",
+        "Date": "2015-07-30",
+        "Remarks": "Dekmantel Festival"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            4.8167326,
+            52.3061265
+          ],
+          [
+            4.9083263,
+            52.36366109999999
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.9083263,
+          52.36366109999999
+        ]
+      },
+      "properties": {
+        "Location": "Nieuwe Prinsengracht, Amsterdam",
+        "Date": "2015-08-03"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            4.9083263,
+            52.36366109999999
+          ],
+          [
+            14.4213456,
+            50.0862754
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.4213456,
+          50.0862754
+        ]
+      },
+      "properties": {
+        "Location": "Kožná, Prague",
+        "Date": "2015-08-10"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            14.4213456,
+            50.0862754
+          ],
+          [
+            13.404954,
+            52.52000659999999
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.404954,
+          52.52000659999999
+        ]
+      },
+      "properties": {
+        "Location": "Berlin",
+        "Date": "2015-08-12",
+        "Remarks": "Watergate"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            13.404954,
+            52.52000659999999
+          ],
+          [
+            9.9936818,
+            53.5510846
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.9936818,
+          53.5510846
+        ]
+      },
+      "properties": {
+        "Location": "Hamburg",
+        "Date": "2015-08-13"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            9.9936818,
+            53.5510846
+          ],
+          [
+            5.1214201,
+            52.09073739999999
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.1214201,
+          52.09073739999999
+        ]
+      },
+      "properties": {
+        "Location": "Utrecht",
+        "Date": "2015-08-14"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            5.1214201,
+            52.09073739999999
+          ],
+          [
+            4.9083263,
+            52.36366109999999
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.9083263,
+          52.36366109999999
+        ]
+      },
+      "properties": {
+        "Location": "Nieuwe Prinsengracht, Amsterdam",
+        "Date": "2015-08-17"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            4.9083263,
+            52.36366109999999
+          ],
+          [
+            6.5737687,
+            53.22230440000001
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.5737687,
+          53.22230440000001
+        ]
+      },
+      "properties": {
+        "Location": "UMCG Groningen",
+        "Date": "2015-08-20",
+        "Remarks": "Meeting bachelorthesis"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            6.5737687,
+            53.22230440000001
+          ],
+          [
+            4.9083263,
+            52.36366109999999
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.9083263,
+          52.36366109999999
+        ]
+      },
+      "properties": {
+        "Location": "Nieuwe Prinsengracht, Amsterdam",
+        "Date": "2015-08-20"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            4.9083263,
+            52.36366109999999
+          ],
+          [
+            5.692692999999999,
+            52.45523559999999
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.692692999999999,
+          52.45523559999999
+        ]
+      },
+      "properties": {
+        "Location": "Biddinghuizen",
+        "Date": "2015-08-21",
+        "Remarks": "Lowlands Festival with Blendle"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            5.692692999999999,
+            52.45523559999999
+          ],
+          [
+            4.9083263,
+            52.36366109999999
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.9083263,
+          52.36366109999999
+        ]
+      },
+      "properties": {
+        "Location": "Nieuwe Prinsengracht, Amsterdam",
+        "Date": "2015-08-23"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            4.9083263,
+            52.36366109999999
+          ],
+          [
+            4.891737,
+            52.400942
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.891737,
+          52.400942
+        ]
+      },
+      "properties": {
+        "Location": "NDSM terrein, Amsterdam",
+        "Date": "2015-08-29",
+        "Remarks": "VOLTT Loves Summer Festival"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            4.891737,
+            52.400942
+          ],
+          [
+            4.9083263,
+            52.36366109999999
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.9083263,
+          52.36366109999999
+        ]
+      },
+      "properties": {
+        "Location": "Nieuwe Prinsengracht, Amsterdam",
+        "Date": "2015-08-29"
+      }
+    }
+  ]
+}
