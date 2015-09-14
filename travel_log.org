@@ -47,18 +47,19 @@ end
 
 ** Geocoding
 
-   Extract the locations from the travel log and geocode them. We don't want to
-   exceed the Google Maps API limits, so we save the coordinates in a
-   table. Furthermore, we also warm the cache by extracting coordinates from the
-   geoJSON travel log when the cache is empty.
+*** Interacting with geocoding API
+    Extract the locations from the travel log and geocode them. We don't want to
+    exceed the Google Maps API limits, so we save the coordinates in a
+    table. Furthermore, we also warm the cache by extracting coordinates from the
+    geoJSON travel log when the cache is empty.
 
-   Please check the table for error messages when a location is not found, or
-   something else goes wrong.
+    Please check the table for error messages when a location is not found, or
+    something else goes wrong.
 
-   #+HEADER: :var travellog=travellog
-   #+HEADER: :var cache_table=geo-cache
-   #+HEADER: :var geojson_file=geojson-file
-   #+BEGIN_SRC ruby
+    #+HEADER: :var travellog=travellog
+    #+HEADER: :var cache_table=geo-cache
+    #+HEADER: :var geojson_file=geojson-file
+    #+BEGIN_SRC ruby
 require 'json'
 require 'geocoder'
 
@@ -110,14 +111,16 @@ distinct_locations.map do |location|
 end
 #+END_SRC
 
-   #+NAME: geo-cache
+    #+NAME: geo-cache
 
-   Combine the travel log and geocode cache to construct a geoJSON file. After
-   that, we save the file.
+*** Decorate travel log with geocoded data
 
-   #+HEADER: :var travellog=travellog geo_cache=geo-cache geojson_file=geojson-file
-   #+HEADER: :results silent
-   #+BEGIN_SRC ruby
+    Combine the travel log and geocode cache to construct a geoJSON file. After
+    that, we save the file.
+
+    #+HEADER: :var travellog=travellog geo_cache=geo-cache geojson_file=geojson-file
+    #+HEADER: :results silent
+    #+BEGIN_SRC ruby
 require 'date'
 require 'json'
 
