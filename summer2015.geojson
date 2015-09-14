@@ -89,7 +89,7 @@
       "properties": {
         "Location": "Camping Bertahof, Bad Hofgastein",
         "Arrival date": "2015-06-28",
-        "Departure date": "2015-06-29"
+        "Departure date": "2015-09-14"
       }
     },
     {
@@ -102,15 +102,53 @@
             47.1440566
           ],
           [
+            -109.354527,
+            -27.0889845
+          ]
+        ]
+      },
+      "properties": {
+        "Origin": "Camping Bertahof, Bad Hofgastein",
+        "Destination": "Easter Island",
+        "Departure date": "2015-06-28",
+        "Arrival date": "2015-09-14"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -109.354527,
+          -27.0889845
+        ]
+      },
+      "properties": {
+        "Location": "Easter Island",
+        "Remarks": "Just a test...",
+        "Arrival date": "2015-09-14",
+        "Departure date": "2015-06-29"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -109.354527,
+            -27.0889845
+          ],
+          [
             13.0987448,
             47.1725556
           ]
         ]
       },
       "properties": {
-        "Origin": "Camping Bertahof, Bad Hofgastein",
+        "Origin": "Easter Island",
         "Destination": "Bad Hofgastein",
-        "Departure date": "2015-06-28",
+        "Departure date": "2015-09-14",
         "Arrival date": "2015-06-29"
       }
     },
