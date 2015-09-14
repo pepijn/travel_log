@@ -87,7 +87,7 @@ distinct_locations.map do |location|
                                 result = geo.first
 
                                 if result
-                                  loc = geo.first.geometry['location']
+                                  loc = result.geometry['location']
                                   [loc['lng'], loc['lat']]
                                 else
                                   ['Location not found...', '']
