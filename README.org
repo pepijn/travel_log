@@ -7,8 +7,8 @@
    :END:
 
    Organize my travel log. Edit with `org-mode`, store in Git and render via
-   [GitHub
-   geoJSON](https://help.github.com/articles/mapping-geojson-files-on-github/).
+   [[https://help.github.com/articles/mapping-geojson-files-on-github/][GitHub
+   geoJSON]].
 
    [[./media/demo.gif]]
 
@@ -32,8 +32,8 @@
 
 *** Inspiration
 
-    [Literate Devops with Emacs](https://www.youtube.com/watch?v=dljNabciEGg) by
-    [Howard Abrams](https://www.youtube.com/channel/UCVHICXXtKG7rZgtC5xonNdQ)
+    [[https://www.youtube.com/watch?v=dljNabciEGg][Literate Devops with Emacs]] by
+    [[https://www.youtube.com/channel/UCVHICXXtKG7rZgtC5xonNdQ][Howard Abrams]]
 
 ** Organizing your geoJSON travel log
 
