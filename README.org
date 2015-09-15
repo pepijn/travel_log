@@ -11,9 +11,9 @@ geoJSON]].
    :VISIBILITY: folded
    :END:
 
-    Turns this: [[./media/emacs.png]]
+   Turns this: [[./media/emacs.png]]
 
-    Into this: [[./media/geojson_github.png]]
+   Into this: [[./media/geojson_github.png]]
 
 *** Usage
 
