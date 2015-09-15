@@ -17,9 +17,9 @@ geoJSON]].
 
 *** Usage
 
-    Check out the repository, open this file and run `C-c C-v C-b` to execute
-    all the blocks. The editable travel log appears after first block has
-    have been executed.
+    Check out the repository, open this file and run =C-c C-v C-b= to execute
+    all the blocks. The editable travel log appears after the first block has
+    been executed.
 
 *** Requirements
 
