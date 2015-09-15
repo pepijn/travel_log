@@ -223,9 +223,9 @@ open(geojson_file, 'w') { |file| file.write output }
 
 **** Version control
 
-    Commit only the geoJSON file and push everything to the remote (e.g. GitHub).
+     Commit only the geoJSON file and push everything to the remote (e.g. GitHub).
 
-    #+BEGIN_SRC sh :results raw silent :var GEOJSON_FILE=geojson-file
+     #+BEGIN_SRC sh :results raw silent :var GEOJSON_FILE=geojson-file
 git commit --message 'Update travel log' $GEOJSON_FILE
 git push
-    #+END_SRC
+     #+END_SRC
