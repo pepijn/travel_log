@@ -610,7 +610,7 @@
       "properties": {
         "Location": "Prishtina, Kosovo",
         "Arrival date": "2015-07-10",
-        "Departure date": "2015-09-15"
+        "Departure date": "2015-07-11"
       }
     },
     {
@@ -623,53 +623,15 @@
             42.6629138
           ],
           [
-            -74.0059413,
-            40.7127837
-          ]
-        ]
-      },
-      "properties": {
-        "Origin": "Prishtina, Kosovo",
-        "Destination": "New York City",
-        "Departure date": "2015-07-10",
-        "Arrival date": "2015-09-15"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -74.0059413,
-          40.7127837
-        ]
-      },
-      "properties": {
-        "Location": "New York City",
-        "Remarks": "Testing...",
-        "Arrival date": "2015-09-15",
-        "Departure date": "2015-07-11"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -74.0059413,
-            40.7127837
-          ],
-          [
             21.7256936,
             42.1322895
           ]
         ]
       },
       "properties": {
-        "Origin": "New York City",
+        "Origin": "Prishtina, Kosovo",
         "Destination": "Kumanovo, Macedonia",
-        "Departure date": "2015-09-15",
+        "Departure date": "2015-07-10",
         "Arrival date": "2015-07-11"
       }
     },
