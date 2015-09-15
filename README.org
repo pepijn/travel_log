@@ -1,16 +1,15 @@
 #+TITLE: travel_log
 #+STARTUP: showall hideblocks
 
+Organize my travel log. Edit with `org-mode`, store in Git and render via [[https://help.github.com/articles/mapping-geojson-files-on-github/][GitHub
+geoJSON]].
+
+ [[./media/demo.gif]]
+
 ** Introduction
    :PROPERTIES:
    :VISIBILITY: folded
    :END:
-
-   Organize my travel log. Edit with `org-mode`, store in Git and render via
-   [[https://help.github.com/articles/mapping-geojson-files-on-github/][GitHub
-   geoJSON]].
-
-   [[./media/demo.gif]]
 
 *** Description
 
