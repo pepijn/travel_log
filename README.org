@@ -156,7 +156,8 @@ end
      #+HEADER: :var travellog=travellog geo_cache=geo-cache geojson_file=geojson-file
      #+HEADER: :results silent
      #+BEGIN_SRC ruby
-require 'date' require 'json'
+require 'date'
+require 'json'
 
 geo = Hash[geo_cache.map do |entry|
   location, lng, lat = entry
