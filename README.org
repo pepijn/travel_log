@@ -143,7 +143,7 @@ distinct_locations.map do |location|
 
   [location, *lnglat]
 end
-#+END_SRC
+     #+END_SRC
 
      #+NAME: geo-cache
      #+RESULTS:
@@ -153,7 +153,9 @@ end
      Combine the travel log and geocode cache to construct a geoJSON file. After
      that, we save the file.
 
-     #+HEADER: :var travellog=travellog geo_cache=geo-cache geojson_file=geojson-file
+     #+HEADER: :var travellog=travellog
+     #+HEADER: :var geo_cache=geo-cache
+     #+HEADER: :var geojson_file=geojson-file
      #+HEADER: :results silent
      #+BEGIN_SRC ruby
 require 'date'
@@ -217,7 +219,7 @@ output = JSON.pretty_generate(
 )
 
 open(geojson_file, 'w') { |file| file.write output }
-#+END_SRC
+     #+END_SRC
 
 **** Version control
 
