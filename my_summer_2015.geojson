@@ -1098,7 +1098,7 @@
       "properties": {
         "Location": "Nieuwe Prinsengracht, Amsterdam",
         "Arrival date": "2015-08-04",
-        "Departure date": "2015-08-11"
+        "Departure date": "2015-08-10"
       }
     },
     {
@@ -1111,15 +1111,52 @@
             52.36366109999999
           ],
           [
+            5.1319021,
+            52.1080517
+          ]
+        ]
+      },
+      "properties": {
+        "Origin": "Nieuwe Prinsengracht, Amsterdam",
+        "Destination": "Tuindorp, Utrecht",
+        "Departure date": "2015-08-04",
+        "Arrival date": "2015-08-10"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.1319021,
+          52.1080517
+        ]
+      },
+      "properties": {
+        "Location": "Tuindorp, Utrecht",
+        "Arrival date": "2015-08-10",
+        "Departure date": "2015-08-11"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            5.1319021,
+            52.1080517
+          ],
+          [
             14.4213456,
             50.0862754
           ]
         ]
       },
       "properties": {
-        "Origin": "Nieuwe Prinsengracht, Amsterdam",
+        "Origin": "Tuindorp, Utrecht",
         "Destination": "Kožná, Prague",
-        "Departure date": "2015-08-04",
+        "Departure date": "2015-08-10",
         "Arrival date": "2015-08-11"
       }
     },
